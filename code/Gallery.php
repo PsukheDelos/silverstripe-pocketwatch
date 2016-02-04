@@ -49,9 +49,9 @@ class Gallery_Controller extends ContentController {
         parent::init();
 
         Requirements::javascript("https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js");
-        Requirements::javascript("pocket-watch/js/bootstrap.min.js");
-        Requirements::javascript("pocket-watch/js/jquery.mixitup.min.js");
-        Requirements::javascript("pocket-watch/js/call.mixitup.js");
+        Requirements::javascript("./themes/pocketwatch/js/bootstrap.min.js");
+        Requirements::javascript("./themes/pocketwatch/js/jquery.mixitup.min.js");
+        Requirements::javascript("./themes/pocketwatch/js/call.mixitup.js");
 
 
 
