@@ -34,7 +34,6 @@ class GalleryItem extends DataObject {
         );
 
 //        $uploadField->setFolderName('Gallery/' .  $this->Gallery()->Title());
-
 //        $album = $this->GalleryAlbum()->Title();
         $uploadField->setFolderName('Gallery');
         $uploadField->setAllowedFileCategories('image');
